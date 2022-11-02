@@ -8,7 +8,7 @@ let  number, duration, cost, time;
 duration = 4;
 
 // get number 
-number = "0792961634";
+number = "0772961634";
 
 // create regex to check number format
 let testRgx = /07[012459]/;
