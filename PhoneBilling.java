@@ -4,7 +4,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 public class PhoneBilling {
-
+ 
     public static void main(String[] args){
 
         // declare the required variables
@@ -14,10 +14,11 @@ public class PhoneBilling {
 
 
         // get total talk time 
-        duration = 4;
+        // user interface create call and end call return duration
+        duration = 5;
 
         // get number 
-        number = "072961634"; // safaricom
+        number = "076961634"; // safaricom
 
         
         // get current time and hours
@@ -59,7 +60,7 @@ public class PhoneBilling {
                 }else{
                     System.out.println("The Total Cost is " + totalCost);
                 }
-                System.out.println(totalCost);
+                // System.out.println(totalCost);
             }
                 else{
                 totalCost = duration * 3;
